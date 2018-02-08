@@ -49,7 +49,7 @@ nav ul li a {
     text-decoration: none;
 }
 nav ul li.active a {
-    background-color: #FF7F50
+    background-color: #FF7F50;
 }
 nav ul li a:hover {
     background-color: #111;
@@ -78,8 +78,34 @@ main h2 {
 }
 
 .forecast {
+    clear: left;
+    text-align: center;
     display: none;
 }
+
+.forecast h3 {
+    font-size: 1.5em;
+    padding-top: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+     border: 1px solid black;
+}
+
+th {
+    height: 50px;
+    background-color:#BDE4F4;
+    font-size: 1.2em;
+}
+
+
 section {
 }
 
@@ -92,10 +118,10 @@ article h3 {
     text-align: center;
 }
 
-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: 100%; /* fill the page in the small/phone view */
+article img { 
+  width: 100%;
   margin: ???;
-    padding: 1em;
+    padding: 0em 1em 1em 1em;
 }
 
 article p {
@@ -110,6 +136,6 @@ footer {
     max-width: none !important;
 }
 footer aside {}
-footer>p {} /* This structure refers to p elements that are direct children of the footer element */
-
-/* Other Class Selectors */
+footer>p {
+    
+} 
