@@ -65,6 +65,10 @@ main h2 {
     text-align: center;
 }
 
+picture img {
+    width: 25%;
+}
+
 .current {
     text-align: center;
 }
