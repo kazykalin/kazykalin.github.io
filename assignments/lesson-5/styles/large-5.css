@@ -1,9 +1,10 @@
 @media only screen and (min-width: 64em) {
+    
     header h1 {
-    font-size: 5em;
-    padding: 0px;
-    margin: 40px;
-}
+        font-size: 5em;
+        padding: 0px;
+        margin: 40px;
+    }
 
     .subheading {
         padding-bottom: 2em;
