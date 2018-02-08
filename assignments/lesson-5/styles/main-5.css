@@ -1,0 +1,172 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { 
+  max-width: 900px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;/* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {}
+header h1 {
+    padding: 40px 0px 0px 0px;
+    font-size: 3em;
+}
+header img {
+    float: left;
+    width: 20%;
+    height: auto;
+}
+header .subheading {
+    text-align: left;
+    font-size: 1.2em;
+
+}
+
+nav {
+    clear: left;
+    margin: 0 auto;
+    max-width: none !important;
+    text-align: center;
+}
+nav button {}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #404969;
+}
+
+nav ul li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li.active a {
+    background-color: #FF7F50;
+}
+nav ul li a:hover {
+     background-color: #111;
+}
+
+main {}
+main h2 {
+    padding-top: 20px;
+    font-size: 2em;
+}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { 
+    width: 100%; 
+}
+
+section {}
+
+#wsummary {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.summary {
+      padding: 1em;
+    padding-left: 5em;
+  -moz-column-count: 2;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 1em;
+  column-count: 2;
+  column-gap: 1em;
+    font-size: 1.25em;
+}
+
+.current img{
+    float: left;
+    margin: 1em;
+}
+
+
+.forecast {
+    clear: left;
+    text-align: center;
+}
+.forecast h3 {
+    font-size: 1.5em;
+    padding-top: 1em;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+table, th, td {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+     border: 1px solid black;
+}
+th {
+    height: 50px;
+    background-color:#BDE4F4;
+    font-size: 1.2em;
+}
+
+article {
+    padding-top: 3em;
+}
+article h3 {
+    padding-bottom: 1em;
+}
+
+article img {
+    width: 40%;
+    float: right;
+    padding-bottom: 30px;
+}
+article p {
+    padding-right: 2em;
+}
+
+    
+
+article p.town-article img {
+    float: ;/* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    padding-bottom: 20px;
+    width: ;
+    height: auto;/* fill the page in the small/phone view */
+  margin: ;
+}
+
+footer {
+    clear: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #404969;
+    color: white;
+    text-align: center;
+    max-width: none !important;
+}
+footer aside {}
+footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
