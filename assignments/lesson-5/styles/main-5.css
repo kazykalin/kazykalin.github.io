@@ -135,6 +135,7 @@ footer {
 }
 footer aside {
     text-decoration: none !important; 
+    color: inherit;
 }
 footer>p {
     
