@@ -133,7 +133,9 @@ footer {
     padding: 1em 0em;
     max-width: none !important;
 }
-footer aside {}
+footer aside {
+    text-decoration: none !important; 
+}
 footer>p {
     
 } 
