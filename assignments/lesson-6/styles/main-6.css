@@ -13,7 +13,9 @@ header, nav, main, footer {
 header {
     text-align: center;
 }
-header h1 {}
+header h1 {
+    margin: .5em;
+}
 header img {
     float: left;
     width: 20%;
@@ -21,6 +23,26 @@ header img {
 header .subheading {
     
 }
+.navigation { 
+    list-style: none; padding-left: 0; 
+}
+.navigation li { 
+    display: none; 
+}
+
+.navigation.responsive { 
+    position: relative; 
+}
+.navigation.responsive li { 
+    background-color: #404969;	display: block;	width: 100%; margin: 2px 0;	border: 1px solid #ddd; 
+}
+.navigation.responsive li a {	
+    padding: 1rem; text-align: center;	display: block; text-decoration:none; 
+}
+	.navigation.responsive li a:hover { 
+        background-color: #111; 
+}
+
 
 nav {
     clear: left;
@@ -28,7 +50,9 @@ nav {
     text-align: center;
     
 }
-nav button {}
+
+.hamburger { display: block;position: absolute;top: 2.0rem; right: 1.25rem; }
+
 nav ul {
      list-style-type: none;
      margin: 0;
@@ -51,7 +75,7 @@ nav ul li a:hover {
 
 main {}
 
-main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure { margin: 1em 0 .2rem 2%; width:96%; }
 main figure img { 
     width: 100%; 
 }

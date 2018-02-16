@@ -10,14 +10,26 @@
         margin: 20px;
     }
     
-    nav button { 
+    .hamburger { 
         display:none; 
+    }
+    
+    .navigation li {
+        display: block;
     }
     
     nav ul li{
         float: left;
         border-right: 1px solid #bbb;
     }
+    
+    nav {
+    clear: left;
+    margin: 0 auto;
+    text-align: center;
+    
+    }
+
     
     li:last-child {
         border-right: none;
@@ -26,6 +38,10 @@
     nav ul li a {
         display: block;
         padding: 14px 16px;
+    }
+    
+    main figure { 
+        margin: 0 0 .2rem 2%; width:96%; 
     }
     
     h2 {
