@@ -1,0 +1,67 @@
+@media only screen and (min-width: 37.5em) {
+  
+    header img {
+        width: 28%;
+    }
+    
+    header h1 {
+        font-size: 3.5em;
+        padding: 0px;
+        margin: 20px;
+    }
+    
+    nav button { 
+        display:none; 
+    }
+    
+    nav ul li{
+        float: left;
+        border-right: 1px solid #bbb;
+    }
+    
+    li:last-child {
+        border-right: none;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 14px 16px;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+    
+    .current img {
+        float: left;
+        margin-left: 5em;
+    }
+    
+    .current p {
+        display: none;
+    }
+
+    .forecast{
+        display: block;
+    }
+    
+    article {
+        border:  3px solid #FF7F50;
+    }
+    
+
+    article img {
+        width: 50%;
+        float: right;
+    }
+
+    .clearfix {
+        overflow: auto;
+        zoom: 1
+    }
+    
+    footer {
+        clear: right;
+    }
+
+}

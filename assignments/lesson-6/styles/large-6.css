@@ -1,0 +1,36 @@
+@media only screen and (min-width: 64em) {
+    
+    header h1 {
+        font-size: 5em;
+        padding: 0px;
+        margin: 40px;
+    }
+
+    .subheading {
+        padding-bottom: 2em;
+    }
+
+    figure img {
+        padding-top: 2em;
+    }
+    
+    .current img {
+        width: 25%;
+        height: 25%;
+        margin-left: 9em;
+    }
+    
+    .current p {
+        display: block;
+    }
+    
+    article {
+        margin: 2em 0em;
+        border:  4px solid #FF7F50;
+    }
+    
+    article h3 {
+        font-size: 1.5em;
+    }
+  
+}
